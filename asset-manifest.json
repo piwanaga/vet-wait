@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vet-wait/static/css/main.c417fa26.chunk.css",
+    "main.js": "/vet-wait/static/js/main.cf35818a.chunk.js",
+    "main.js.map": "/vet-wait/static/js/main.cf35818a.chunk.js.map",
+    "runtime-main.js": "/vet-wait/static/js/runtime-main.04ed8a0f.js",
+    "runtime-main.js.map": "/vet-wait/static/js/runtime-main.04ed8a0f.js.map",
+    "static/js/2.7ed206d0.chunk.js": "/vet-wait/static/js/2.7ed206d0.chunk.js",
+    "static/js/2.7ed206d0.chunk.js.map": "/vet-wait/static/js/2.7ed206d0.chunk.js.map",
+    "static/js/3.f68fde48.chunk.js": "/vet-wait/static/js/3.f68fde48.chunk.js",
+    "static/js/3.f68fde48.chunk.js.map": "/vet-wait/static/js/3.f68fde48.chunk.js.map",
+    "index.html": "/vet-wait/index.html",
+    "static/css/main.c417fa26.chunk.css.map": "/vet-wait/static/css/main.c417fa26.chunk.css.map",
+    "static/js/2.7ed206d0.chunk.js.LICENSE.txt": "/vet-wait/static/js/2.7ed206d0.chunk.js.LICENSE.txt",
+    "static/media/cat-logo.3a856b07.svg": "/vet-wait/static/media/cat-logo.3a856b07.svg",
+    "static/media/dog-logo.632b36d5.svg": "/vet-wait/static/media/dog-logo.632b36d5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04ed8a0f.js",
+    "static/js/2.7ed206d0.chunk.js",
+    "static/css/main.c417fa26.chunk.css",
+    "static/js/main.cf35818a.chunk.js"
+  ]
+}
