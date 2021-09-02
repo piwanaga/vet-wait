@@ -30,7 +30,7 @@ const Queue = ({ items, clearItems }) => {
             </button> :
             <button
                 className= 'text-white bg-blue-400 text-xs tracking-wider px-2 py-1 sm:ml-4 md:ml-8 rounded-lg border hover:bg-blue-300  focus:outline-none focus:ring focus:ring-offset-2 focus:ring-blue-400 focus:ring-opacity-50 active:bg-blue-500 transform transition'
-                onClick={() => handleSendText(i.phone, i.ownerName, i.petName, i.id)}
+                onClick={() => handleSendText(i.phone, i.firstName, i.petName, i.id)}
                 > 
                 Send Text
             </button>
