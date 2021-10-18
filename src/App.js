@@ -28,7 +28,7 @@ const App = () => {
         </div>
         <InstructionsModal />
       </div>
-      <div className='mx-auto max-w-md'>
+      <div className='mx-auto max-w-lg'>
         <Form addItem={addItem}/>
       </div>
       <div className='my-10' />

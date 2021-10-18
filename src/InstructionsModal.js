@@ -72,30 +72,27 @@ const InstructionsModal = () => {
                   VetWait Instructions
                 </Dialog.Title>
                 <div className="mt-2 space-y-2">
-                  <p className="text-sm text-gray-500 mb-4">
-                    I made this app after going to the vet and having to wait for hours around the front desk because they could not call or text you when they were ready. I thought it would be fun to make a simple waiting list with a feature to send texts to the people waiting to let them know when it was their turn. 
+                  <p className="text-sm text-gray-500 ">
+                    1. Enter <span className='font-semibold'>Owner</span> and <span className='font-semibold'>Pet</span> names.
                   </p>
-                  <p className="text-sm text-gray-500 font-medium">
-                    1. Enter <span className='text-green-500'>Owner</span> and <span className='text-green-500'>Pet</span> names
+                  <p className="text-sm text-gray-500 ">
+                    2. Enter your real <span className='font-semibold'>Phone Number</span> to get a text from VetWait!.
                   </p>
-                  <p className="text-sm text-gray-500 font-medium">
-                    2. Enter your real <span className='text-green-500'>Phone Number</span> to get a text from VetWait!
+                  <p className="text-sm text-gray-500 ">
+                    3. Click <span className='font-semibold'>'Send Text'</span> in the queue to get a text message.
                   </p>
-                  <p className="text-sm text-gray-500 font-medium">
-                    3. Click <span className='text-blue-400'>'Send Text'</span> in the queue to get a text message
+                  <p className="text-sm text-gray-500 ">
+                    4. Click <span className='font-semibold'>'Check In'</span> to check in pet.
                   </p>
-                  <p className="text-sm text-gray-500 font-medium">
-                    4. Click <span className='text-green-500'>'Check In'</span> to check in pet
-                  </p>
-                  <p className="text-sm text-gray-500 font-medium">
-                    5. Click <span className='text-red-500'>'Clear Checked In'</span> to remove checked in pets from the list
+                  <p className="text-sm text-gray-500 ">
+                    5. Click <span className='font-semibold'>'Clear Checked In'</span> to remove checked in pets from the list.
                   </p>
                 </div>
 
                 <div className="mt-6">
                   <button
                     type="button"
-                    className="inline-flex justify-center px-4 py-2 text-sm text-blue-800 bg-blue-100 border border-transparent rounded hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="inline-flex justify-center px-4 py-2 text-sm text-white bg-blue-500 border border-transparent rounded hover:bg-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={closeModal}
                   >
                     Got it, thanks!

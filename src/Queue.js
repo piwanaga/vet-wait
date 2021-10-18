@@ -15,6 +15,10 @@ const Queue = ({ items, clearItems }) => {
         setCheckedIn(checkedIn => [...checkedIn, id])
     }
 
+    const clearCheckedIn = () => {
+        setCheckedIn([])
+    }
+
     const renderTextBtn = i => {
         return textSent.includes(i.id) ? 
             <button
@@ -60,7 +64,10 @@ const Queue = ({ items, clearItems }) => {
 
     return (
         <>
-        <div className='bg-white shadow-lg rounded-lg'>
+        <div className='flex justify-center'>
+            <ClearButton checkedIn={checkedIn} clearCheckedIn={clearCheckedIn} clearItems={clearItems} />
+        </div>
+        <div className='bg-white shadow-lg rounded-lg mb-20'>
             <table className='table-fixed w-full border-collapse'>
                 <thead className='bg-gray-100'>
                     <tr className='border-b'>
@@ -80,7 +87,7 @@ const Queue = ({ items, clearItems }) => {
                         <td className='border px-3 py-3 text-gray-900 text-xs sm:text-sm overflow-auto'>{i.firstName} {i.lastName}</td>
                         <td className='border px-3 py-3 text-gray-900 text-xs sm:text-sm overflow-auto'>{i.petName}</td>
                         <td className='border px-3 py-3 text-gray-900 text-xs sm:text-sm text-center sm:text-left'>
-                            {i.phone}
+                            {i.phone}   
                             {renderTextBtn(i)}
                         </td>
                         <td className='border-b px-3 py-3'>
@@ -98,10 +105,6 @@ const Queue = ({ items, clearItems }) => {
             </div>
             }
         </div>
-        {items.length ? 
-            <ClearButton checkedIn={checkedIn} clearItems={clearItems}/> :
-            null
-        }
         </>
     );
 };
