@@ -8,7 +8,7 @@ const sendText = async (phone, ownerName, petName) => {
     try {
         const res = await axios.post(BASE_URL, {
             phone: phoneStripped,
-            message: `Hi ${ownerName}, ${petName} is ready to be checked in! Please come to the front desk in the next 10 muinutes to start your appointment. (This is a test message from VetWait)`,
+            message: `Hi ${ownerName}, ${petName} is ready to be checked in! Please come to the front desk in the next 10 muinutes to start your appointment. (Created by Phillip Iwanaga)`,
             key: API_KEY
         });
         return res
