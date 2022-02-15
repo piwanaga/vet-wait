@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+
+import { sampleData } from './sampleData';
 import Form from './Form';
 import Queue from './Queue';
 import InstructionsModal from './InstructionsModal';
 import dogLogo from './images/dog-logo.svg'
 import catLogo from './images/cat-logo.svg'
+
 import { v4 as uuid } from "uuid";
 
 const App = () => {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState(sampleData);
 
   const addItem = item => {
     const newItem = {...item, id: uuid()}

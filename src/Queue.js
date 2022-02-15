@@ -3,8 +3,8 @@ import ClearButton from './ClearButton';
 import sendText from './API';
 
 const Queue = ({ items, clearItems }) => {
-    const [textSent, setTextSent] = useState([])
-    const [checkedIn, setCheckedIn] = useState([])
+    const [textSent, setTextSent] = useState(['1', '2', '3'])
+    const [checkedIn, setCheckedIn] = useState(['2','3'])
 
     const handleSendText = async (phone, ownerName, petName, id) => {
         await sendText(phone, ownerName, petName)
