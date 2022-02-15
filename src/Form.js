@@ -69,7 +69,12 @@ const Form = ({ addItem }) => {
         evt.preventDefault()
         let isValidForm = validateForm()
         if (isValidForm) {
-          addItem(formData)
+          addItem({
+            firstName: formData.firstName,
+            lastName: formData.lastName,
+            petName: formData.petName,
+            phone: formData.phone,
+          })
           setFormData(INITIAL_STATE)
         }
     };
