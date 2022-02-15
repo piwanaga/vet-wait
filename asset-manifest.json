@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vet-wait/static/css/main.1786382b.chunk.css",
-    "main.js": "/vet-wait/static/js/main.549eca64.chunk.js",
-    "main.js.map": "/vet-wait/static/js/main.549eca64.chunk.js.map",
+    "main.js": "/vet-wait/static/js/main.36214ed8.chunk.js",
+    "main.js.map": "/vet-wait/static/js/main.36214ed8.chunk.js.map",
     "runtime-main.js": "/vet-wait/static/js/runtime-main.04ed8a0f.js",
     "runtime-main.js.map": "/vet-wait/static/js/runtime-main.04ed8a0f.js.map",
     "static/js/2.7ed206d0.chunk.js": "/vet-wait/static/js/2.7ed206d0.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.04ed8a0f.js",
     "static/js/2.7ed206d0.chunk.js",
     "static/css/main.1786382b.chunk.css",
-    "static/js/main.549eca64.chunk.js"
+    "static/js/main.36214ed8.chunk.js"
   ]
 }
