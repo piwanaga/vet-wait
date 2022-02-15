@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vet-wait/static/css/main.1786382b.chunk.css",
-    "main.js": "/vet-wait/static/js/main.36214ed8.chunk.js",
-    "main.js.map": "/vet-wait/static/js/main.36214ed8.chunk.js.map",
+    "main.css": "/vet-wait/static/css/main.6bf4e047.chunk.css",
+    "main.js": "/vet-wait/static/js/main.ed07002d.chunk.js",
+    "main.js.map": "/vet-wait/static/js/main.ed07002d.chunk.js.map",
     "runtime-main.js": "/vet-wait/static/js/runtime-main.04ed8a0f.js",
     "runtime-main.js.map": "/vet-wait/static/js/runtime-main.04ed8a0f.js.map",
     "static/js/2.7ed206d0.chunk.js": "/vet-wait/static/js/2.7ed206d0.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f68fde48.chunk.js": "/vet-wait/static/js/3.f68fde48.chunk.js",
     "static/js/3.f68fde48.chunk.js.map": "/vet-wait/static/js/3.f68fde48.chunk.js.map",
     "index.html": "/vet-wait/index.html",
-    "static/css/main.1786382b.chunk.css.map": "/vet-wait/static/css/main.1786382b.chunk.css.map",
+    "static/css/main.6bf4e047.chunk.css.map": "/vet-wait/static/css/main.6bf4e047.chunk.css.map",
     "static/js/2.7ed206d0.chunk.js.LICENSE.txt": "/vet-wait/static/js/2.7ed206d0.chunk.js.LICENSE.txt",
     "static/media/cat-logo.3a856b07.svg": "/vet-wait/static/media/cat-logo.3a856b07.svg",
     "static/media/dog-logo.632b36d5.svg": "/vet-wait/static/media/dog-logo.632b36d5.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.04ed8a0f.js",
     "static/js/2.7ed206d0.chunk.js",
-    "static/css/main.1786382b.chunk.css",
-    "static/js/main.36214ed8.chunk.js"
+    "static/css/main.6bf4e047.chunk.css",
+    "static/js/main.ed07002d.chunk.js"
   ]
 }
